@@ -1,0 +1,65 @@
+Componenets of Tableau:
+
+1. Worksheet
+It is used as starting point of any visualization in Tableau
+
+2. Dashboard
+_ Corporate Dashboard - CEO, MD, VP, COO
+
+_ Divisional(Departmental) Dashboard - Dashboard for every division in a company like HR, R&D, Finance, Accounting etc
+
+_ Locational Dashboard -Location based dashboard like there will be a dashboard for different geographical locations like SEA, Japan Domestic Market etc
+
+                                              /\                              
+                                             /St\                         -Strategy
+                                            /___ \
+                                           / Tact \						  -Tactical
+                                          /________\
+                                         /Operations\			<---- Where we will join an organization
+										/____________\
+3. Story
+
+A story is ,made of story points
+Product
+Customer
+
+
+
+24  col - 5 measures & 19 Dimensions
+51290 rows
+7 cols with numeric data
+
+
+Measure - A measure is a numeric value (with or without decimal) on which maths or stats operations can be performed to get meaningful results.
+
+Values that will have no meaningful value when arithmetic/statistical operations are performed on them, like Primary Key values.. are not 
+considered measures..
+
+Things that are considered Measures -
+
+Profit, Tax, Sales, Cost, Discount, Quantity etc
+
+
+Dimension - Anything which is not a measure or any alphanumeric or any date or any primary key is called a dimension
+[At some stage it MIGHT be considered as a measure.]
+
+Ex 
+City, State, Country, Department, category, birthdate, employeeid etc
+
+
+Dimensions are usually used for grouping the measures
+
+Measures are displayed in GREEN color
+Dimensions are displayed in BLUE color
+
+EDA - Exploratory Data Analysis :
+
+
+Typically done using Python and R language
+
+csv vs txt - One advantage of CSV is that it can be directly opened by excel
+ 
+
+
+
+
