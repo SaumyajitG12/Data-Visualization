@@ -48,9 +48,16 @@ City, State, Country, Department, category, birthdate, employeeid etc
 
 
 Dimensions are usually used for grouping the measures
+Only mathematical operation possible on a dimension is count
+
 
 Measures are displayed in GREEN color
 Dimensions are displayed in BLUE color
+
+Some columns can be considered both measures and dimensions. Ex Age
+If we are tackling a question like how many employees in a company above the age of 30, its a count operation so in this case its a dimension
+However if we are asked to find mean age, mode of age etc, then it becomes a measure. 
+
 
 EDA - Exploratory Data Analysis :
 
@@ -58,7 +65,7 @@ EDA - Exploratory Data Analysis :
 Typically done using Python and R language
 
 csv vs txt - One advantage of CSV is that it can be directly opened by excel
- 
+
 
 
 

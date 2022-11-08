@@ -1,0 +1,40 @@
+When we open an xls file in tableu and we modify something in tableu software, no change happens in the original xlsx file
+
+
+Most Commonly used Data Types :
+# -> Numeric Data [Always right aligned] {Text is always left aligned} {Can appear both blue or green}
+Abc -> Alphanumeric {left aligned}
+{Globe symbol} -> Geographic field {left aligned}
+		_Lat	Latitude
+		_Long	Longitude
+		
+{Calendar Symbol} -> Date Field
+T/F - True/False [Boolean]
+
+###Sorting
+
+Sorting #1 : Smallest to Largest or Ascending
+Sorting #2 : Largest to Smallest or Descending
+Sorting #3 : Same as data source
+
+Any field name in normal field is a field that is present in original data
+Any field that is shown in Italicized font is only in Tableau as dummy field
+
+Ex Count, Latitude, Longitude etc
+
+###Layouts
+_Standard
+_Fit-Height
+_Fit-Width
+_Entire View
+
+
+Financials by Region
+
+Highlight table colors background color of cells by size of value , iger the value darker the color
+Tableu by default uses blue as the color (duh..)
+
+For negetive numbers the default color scheme is Orange
+
+Blue : Positive
+Orange : Negetive
