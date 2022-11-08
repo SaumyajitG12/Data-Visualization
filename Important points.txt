@@ -13,10 +13,10 @@ _ Locational Dashboard -Location based dashboard like there will be a dashboard 
                                               /\                              
                                              /St\                         -Strategy
                                             /___ \
-                                           / Tact \						  -Tactical
+                                           / Tact \			  -Tactical
                                           /________\
                                          /Operations\			<---- Where we will join an organization
-										/____________\
+					/____________\
 3. Story
 
 A story is ,made of story points
