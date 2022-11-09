@@ -12,12 +12,12 @@ Continues colors : Based on Measures which are numeric so they have shading.
 Percentages is always spread horizontally in tableau
 
 Pie Chart		 |  Bubble Chart
-				 |
-Everything is %  | Every value is shown separate	
-and angle		 |	Does not need percentage
-                 |
-Can handle       | Cannot handle 
-negetive values  | negetive values
-				 |
-Use if small     | Use if large number of values
-number of values |
+		 	 |
+Everything is %  	 |  Every value is shown separate	
+and angle		 |  Does not need percentage
+                	 |
+Can handle      	 |   Cannot handle 
+negetive values  	 |   negetive values
+			 |
+Use if small     	 | Use if large number of values
+number of values  	 |
