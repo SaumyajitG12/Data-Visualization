@@ -1,0 +1,23 @@
+Difference between pie and bubble chart?
+
+
+For pie chart generally any primary key or large values are not suitable, dates with exception of by year or quarters is not suitable
+Anything more than 5-8 variation is not suitable
+
+Discrete colors : Means all colors are separate from each other, no no shades.
+					It is based on Dimensions
+					
+Continues colors : Based on Measures which are numeric so they have shading.
+
+Percentages is always spread horizontally in tableau
+
+Pie Chart		 |  Bubble Chart
+				 |
+Everything is %  | Every value is shown separate	
+and angle		 |	Does not need percentage
+                 |
+Can handle       | Cannot handle 
+negetive values  | negetive values
+				 |
+Use if small     | Use if large number of values
+number of values |
