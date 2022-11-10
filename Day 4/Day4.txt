@@ -1,0 +1,74 @@
+Bar Charts :
+1. Simple
+2. Stacked
+3. Side by Side
+This chart is useful to show measure vales across a dimension using height or width of bars
+
+Line chart-
+1. Discrete
+2. Continuous
+This chart is used to view value of a measure over time period like week, day, month, quarter or year.
+
+Stacked barcharts have 2 types:
+100%
+
+
+For stacked barcharts, the dimension with the lower no of items gets put as the color
+For side by side egraphs the dimension counts get multiplied, so it is not suitable for dimensions that have a large count.
+
+
+Line Chart:
+1. Discrete
+2. Continuous
+Line charts are used for time series analysis
+
+This chart is useful to view value of a measure over time period like week, day, month, quarter or year.
+
+Roll Up -> Goin up from detail to summary
+
+Example-
+Daily data for the year -> Weekly data summary -> Monthly data summary -> Quarterly -> Yearly
+Reverse is known as Drill down i.e., going from Yearly data summary to Daily
+
+
+Continuous - The line continues without any breaks. Showed in green color
+Discrete - Discrete values, i., lines get cut off(broken). Lines are showed in blue color.
+
+Rule #1
+To make a line chart we need a Date field
+
+Rule #2
+Always put Date field in column and put the measure in rows i.e., the graph should be horizontal
+
+Step Line Chat : You can see the steps and see how much change in value happens, either up or down
+
+In columns for Line chart the first set of date values in the drop down is for discrete values while the second set is for continuous values
+
+
+Area Chart = Line charts with area shaded
+
+Side by Side Circle charts - Not frequently used
+
+Heat Map \
+          |--Not Frequently Used
+Tree Map /
+
+Heat map represents each value with a rectangle and the size of the rectangle is directly proportional to the value.
+It is used for 2 dimensional analysis.
+
+
+Tree maps are similar, as in each value is represented with a rectangle - except its used for 1 dimension
+We can use related dimensions to create groups, i.e., If we use parent-chile dimensions like Category and Sub-Category then
+Category becomes the grouping factor for sub-category
+
+Tree maps cant handle negetive values, heat maps however can show
+
+Tree maps cannot be sorted at all while Heat maps can be sorted in any order
+
+The rectangles in tree maps are placed close to each other while in heat maps there is a clear gap between each
+
+In case of HEatmaps : Avoid Labels
+
+13,4,6,6,6
+
+Histogram : Used to do freq distribution and check for normal distribution of values
