@@ -1,0 +1,72 @@
+Relation is the connection between two tables, Joins is the process of connecting two tables based on a relation.
+
+Scatter Plot is used to get correlation between 2 quantitative or numeric variables
+
+3 Types of correlation :
+
+1: Positive :	The 2 variables affect each other positively, i.e., when one increase so does the other
+2: Negetive :	The 2 variables are inversely correlated i.e, when one increases the other decreases
+3: Neutral  :	The 2 variables are unaffected by each other
+
+Y variable -> Dependant Variable
+X Variable -> Independant Variable
+
+With X we can predict the value of Y
+
+Sales vs Profit(Scatter) 
+------------------------
+P-value:	< 0.0001
+Equation:	Profit=0.173394*Sales+-14.1291
+
+Coefficients
+Term	Value	StdErr	t-value	p-value
+Sales	0.173394	0.0013809	125.57	< 0.0001
+intercept	-14.1291	0.754398	-18.729	< 0.0001
+
+1. Using above equation, predict the profit for sales above 25000.
+Profit : 4320.7209 [0.173394*25000+-14.1291]
+
+2. Using above equation, predict the profit for sales above 25000.
+Profit : 4320.8943 [0.173394*25001+-14.1291]
+| | | | | | | | 
+V V V V V V V V      
+Slope 0.1733 means that for every 1 unit increase in sales profit increases by 0.1733 units
+
+2. How much sales is required to achieve profit of 4800 : 27,764.1043
+
+
+
+
+r^2 -> Co-Efficient of Determination (Shows how strong the correlation between x and y) [Minimum value is 0 and max is 1]
+r^2 (.23) means 23% variations in the dependant variable profit can be explained by variation in Sales independant variable
+Remaining 77% variations can be due to unknown reasons.
+[r^2 is poor] Only 23% confidence means poor
+Ideal r^2 is at least 70% or above
+For some industries like space, r^2of 95%+ is expected.
+
+Scatter Plots ARE NOT GOOD FOR discrete plots : More suitable for continuous data
+
+Gerographic Charts -
+1. Symbol
+2. Solid (Choropleth)
+
+Geograpic data is plotted using 2 values, Latitude and Longitude
+
+Box & Whisker Plot : Used to find out data points that are outliers i.e., data that is away from the normal data
+It comes from the field of astronomy
+
+			 __________________
+                LW      |      |           |      UW
+	        --------|      |           |-------
+			|______|___________|
+			Q1   Median(Q2)    Q3
+			
+			
+IQR : Inter Quartile Range
+IRQ = Q3-Q1 [Quartile 3 - Quartile 1]
+UW=Q3+(1.5* IQR)
+LW=Q1-(1.5*1.5)
+
+ANy values that are more that 1.5 IQR away from Q3 and Q1 are classified as outliers
+*Whenever you dont have any value above UW your highest value becomes UW
+*Whenever you dont have any value below LW your lowest value becomes LW
