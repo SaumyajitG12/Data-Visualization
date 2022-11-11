@@ -1,0 +1,12 @@
+COGS : Cost of Goods Sold
+
+Difference between Bullet graph and Dual Combo Graph
+-----------------------------------------------------
+
+*Bullet graph does not require Date field
+*Dual Combo requires Date field
+
++Dual Combo is used for time series analysis
++Bullet graph is suitable for non-Date dimensions
+
+In bullet graph the dark shading around the bar indicates 60% of target and light shading indicates 80% and it is editable(not commonly so).
