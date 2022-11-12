@@ -1,0 +1,36 @@
+Filters in Tableau -
+
+1. Data Source filter   \
+2. Dimension filter      \
+3. Measure Filter         \_______ These performs the same function as where clause.
+4. Date filter            /        Context filter is very important as an interview question. 
+5. Top/Bottom filter     /         So is top/bottom.
+6. Context filter       /
+
+Any filter that is applied at the data source is called Data Source Filter. Modifies the no and type of record going into tableau at the source.
+
+Styles of filter :-
+
+1. Multi - Value select
+2. Single value select
+3. Single value slider - Suitable for Dates
+4. Single value drop-down-\ Space Efficient, use when you don't 
+5. Multi-Value Drop Down -/ have space on the right side
+6. Custom
+
+When you have top/bottom filter is applied with another top/bottom filter it always throws an error. This is because there is no order of execution
+to top/bottom filters.
+This is where context filters come in
+
+Make sure the top filter is added to context.
+
+Whenever you add a context filter, that filter gets executed first. And the background color chages to grey to show it is the more important filter.
+The context filter gets applied first, and then the other top/bottom/other filters get executed. This gives us the correct results.
+
+Sets are aso a part of tableau, sets work on the concept of set theory where a member is in or out.
+
+Group vs Set
+------------
+Group can be created on measure or dimension  |  Set cannot be created on measure
+Group is not used as a filter                 |  Set can be used as a filter
+Group is used to logically group elements     |  Set is used to define if elements are part of set or not
