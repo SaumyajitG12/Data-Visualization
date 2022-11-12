@@ -1,0 +1,23 @@
+Connect Tableau to Financial_Sample Excel dataset and solve this assignment -
+
+1. Build highlight table using month name & product and answer following questions -
+a) How many records have losses?
+b) In Montana product, by what % profit in Sept is higher than profit in April?
+c) Compare profit of Velo in October to Paseo in November to find which value is higher. Also calculate difference.
+
+2. Create discrete monthly line chart for Units sold by Discount band. By what % value, units sold for Low in Oct is higher than Medium in Dec? 
+
+3. Create tree map of discounts by segment and group it by discout band. Which discount band has discount for Small business higher than Government?
+
+4. Create countrywise COGS pie chart and divide it by Discount band. Make each pie chart 100%. In which discount band, % cogs in Mexico is higher than France?
+
+5. Build Box & Whisker plot of Month name & profit and divide it using Product. Find out if any product has outliers and display their details.
+
+6. Build two scatter plots - sales vs profit and cogs vs profit. Display their respective R square values and find out which chart has better R square. 
+a) Calculate how much sales is required to get profit of 325k.
+b) Calculate how much cogs is required to get profit of 375k.
+
+7. Create continuous monthly area chart for profit and filter it using Product and Segment. Display min/max values on the chart. What is the % difference between 
+max profits of Montana & Carretera in Enterprise segment?
+
+8. Build histogram of Profit with bin size of 15k. Divide it by Discount band. Compare no. of records in bin 15k in discount bands - High vs Medium.
