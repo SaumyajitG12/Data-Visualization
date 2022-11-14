@@ -1,0 +1,55 @@
+Parameters & Calculated Fields -
+1. Calcualated field is a technique in Tableau to create additional columns or calculations that don't exitst in the original data source.
+
+2. Parameters in Tableau is used to create dynamic selection of values - dimensions, measures or calculated fields.
+
+How to check if field is correct : Orange color and enclosed in square brackets
+
+##Count Function##
+
+Count/CountD 
+
+Count will count every record irrespective of duplicates / Only unique orders will be counted
+
+
+One calculated field can be used in another calculated field.
+
+Key Performance Indicator - KPI will be important values for business people
+                 
+Name
+Data Type
+List of Values - Display
+	       - Value
+
+Parameters are used in Tableau by embedding in calculated field
+
+Attribute -> Do not give sum, give eindividual value
+
+
+Business Analytics in Tableau:
+
+1. Constant Line
+	Whenever your target is a fixed value, then constant line is used. You can have multiple constant lines on the same chart. Never changes position.
+2. Average Line
+	Cannot have multiple Average lines on same page. Used to find out which values are below and above average. Changes position depending on selection
+3. Trend Line
+	Used for prediction using Linear Regression. 
+4. Clusters
+	Falls under Unsupervised Machine Learning.
+5. Forecasting
+	Trend, Cyclic, Seasonal and Irregular
+
+Prediction vs Forecast
+
+Annova - Analysis of Variance
+Degree of Freedom -> Total No of Values -1
+F-Statistic : Regression sum of square vs regular sum of squares
+
+Similarity : Break point towards the future
+Prediction : Done using regression i.e., predicting value of dependant variable using value of one or more dependant variable
+Forecast : Done on Time Series to predict the value of next time period i.e., trying to forecast some value in the future.
+
+Forecasting: 
+
+Additive, Adds up the T C S I in some way
+Multipliative, multiplies the T C S I in some way
