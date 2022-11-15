@@ -24,3 +24,18 @@ Spark Line : Different scales for every separate item. Not representative of com
 ###########DASHBOARD###############
 
 https://data.worldbank.org/country/Austria?view=chart
+
+StoryPoint 
+    |
+   / \
+Dash  Worksheet
+Board	
+
+A Story can be created using a dashboard but not vice-versa
+
+When Data Sources and types are different then we use a technique called Data Blending
+
+2 Sources in Data Blending : Primary and Secondary : Secondary contains Foreign Keys.
+
+Primary : Blue
+Secondary : Orange
