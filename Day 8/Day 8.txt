@@ -1,0 +1,26 @@
+Table Calculations:
+-Running Total
+-Difference
+-% Difference
+-% of total
+-Rank
+-Moving Average : Default MA in Tableau is 3Period MA i.e., (Current Value + 2 Prev Value) /3
+		  Eg: Moving average for the month of July would be value in (July+June+May)/3
+5 Period MA (2 Prev + 2 Next + Current)/5 is used in most places since it has less fluctuations. 
+This is also known as Line smoothing Technique.
+
+
+
+
+
+
+Table Down : Entire table is processed one y one (Current - Prev) and % is computed
+Pane Down : Stops at every pane. Every new pane difference is calculated afresh
+
+
+Spark Line : Different scales for every separate item. Not representative of comparitive but used to see the rise and fall of data(fluctuatuons).
+
+
+###########DASHBOARD###############
+
+https://data.worldbank.org/country/Austria?view=chart
